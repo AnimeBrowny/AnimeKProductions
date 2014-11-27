@@ -1,0 +1,107 @@
+header{
+	position: relative;
+	margin: 0 auto;
+}
+#nav{
+		/*background: url(images/nav.png) no-repeat;*/
+		padding-top: 30px;
+		color: black;
+		padding-left: 30px;
+        float: left;
+}
+
+/*.nav-img{
+		background: url(images/nav.png) no-repeat;
+	z-index: -1;
+}*/
+/*section{*/
+	/*background: url(images/section.png) no-repeat;*/
+/*	background-repeat: none;*/
+/*}*/
+header img{
+	max-width: 100%;
+	width: 844px;
+	max-height: 100%;
+	height: 200px;
+}
+header p{
+	text-align: center;
+}
+.nav br{
+	margin-bottom:2px;
+}
+nav {
+    border: groove;
+    width: 170px;
+    height: 360px;
+    margin: 5px;
+    padding: 0px 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+#navbar li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #000000;
+}
+
+#navbar ul li a{
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    display: block;
+    color: white;
+}
+
+#navbar ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+}
+
+#navbar ul li:hover ul {
+    visibility: visible;
+    color: mediumvioletred;
+}
+#navbar li:hover{
+    background: blueviolet;
+}
+
+#navbar ul li:hover ul li a:hover{
+    background: #ccc;
+    color: #000;
+}
+
+#navbar a:hover{
+    color: #000;
+}
+
+section #content {
+    /*clear: both;*/
+    /*width: 55%;*/
+    /*float: left;*/
+
+}
+section {
+    width: 100%;
+    height: 100%;
+    background:url("images/section.png") no-repeat center center fixed;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    background-size: cover;
+    overflow: hidden;
+}
