@@ -2,18 +2,13 @@ header{
 	position: relative;
 	margin: 0 auto;
 }
-#nav{
-		/*background: url(images/nav.png) no-repeat;*/
+#nav {
 		padding-top: 30px;
 		color: black;
 		padding-left: 30px;
         float: left;
 }
 
-/*.nav-img{
-		background: url(images/nav.png) no-repeat;
-	z-index: -1;
-}*/
 /*section{*/
 	/*background: url(images/section.png) no-repeat;*/
 /*	background-repeat: none;*/
@@ -31,10 +26,9 @@ header p{
 	margin-bottom:2px;
 }
 nav {
-    border: groove;
-    width: 170px;
+    width: 140px;
     height: 360px;
-    margin: 5px;
+    margin: 0% 19.3%;
     padding: 0px 15px;
     max-width: 100%;
     max-height: 100%;
@@ -69,7 +63,8 @@ nav {
 #navbar ul ul {
     position: absolute;
     visibility: hidden;
-    top: 32px;
+    top: 242px;
+    left: 8px;
 }
 
 #navbar ul li:hover ul {
@@ -89,19 +84,27 @@ nav {
     color: #000;
 }
 
-section #content {
+/*section #content {*/
     /*clear: both;*/
     /*width: 55%;*/
     /*float: left;*/
 
-}
-section {
-    width: 100%;
-    height: 100%;
-    background:url("images/section.png") no-repeat center center fixed;
+/*}*/
+/*section {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background:url("images/section.png") no-repeat center center fixed;*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
     /*-o-background-size: cover;*/
-    background-size: cover;
-    overflow: hidden;
+    /*background-size: cover;*/
+    /*overflow: hidden;*/
+/*}*/
+
+section {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin: -376px auto;
 }
