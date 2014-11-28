@@ -1,0 +1,155 @@
+header{
+    background-color: #f1f1f1;
+
+}
+
+#nav {
+		padding-top: 30px;
+		color: black;
+		padding-left: 30px;
+        float: left;
+}
+
+/*section{*/
+	/*background: url(images/section.png) no-repeat;*/
+/*	background-repeat: none;*/
+/*}*/
+header img{
+	max-width: 100%;
+	max-height: 100%;
+    height: 200px;
+}
+header p{
+	text-align: center;
+}
+.clear {
+    clear: both;
+}
+.nav br{
+	margin-bottom:2px;
+}
+nav {
+    width: 210px;
+    height: 360px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+#navbar li {
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+    background: #c2c2c2;
+}
+
+#navbar ul li a{
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    display: block;
+    color: white;
+}
+
+#navbar ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 242px;
+    left: 8px;
+}
+
+#navbar ul li:hover ul {
+    visibility: visible;
+    color: mediumvioletred;
+}
+#navbar li:hover{
+    background: blueviolet;
+}
+
+#navbar ul li:hover ul li a:hover{
+    background: #ccc;
+    color: #000;
+}
+
+#navbar a:hover{
+    color: #000;
+}
+
+/*section #content {*/
+    /*clear: both;*/
+    /*width: 55%;*/
+    /*float: left;*/
+
+/*}*/
+/*section {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background:url("images/section.png") no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    /*overflow: hidden;*/
+/*}*/
+
+section {
+    position: relative;
+    max-width: 89%;
+    max-height: 100%;
+    text-align: center;
+    margin: -376px auto;
+    margin-left: 11%;
+}
+.gridbox {
+    margin-bottom: 2.0242914979757085020242914979757%;
+    margin-right: 2.0242914979757085020242914979757%;
+    float: left;
+}
+.gridmenu {
+    /*width: 23.481781376518218623481781376518%;*/
+}
+.gridmain {
+    width: 95%;
+}
+
+@media only screen and (max-width: 500px){
+    .gridmenu {
+        width: 100%;
+    }
+
+    .menuitem {
+        margin: 1.0121457489878542510121457489879%;
+        padding: 1.0121457489878542510121457489879%;
+    }
+
+    .gridmain {
+        width: 100%;
+    }
+
+    .main {
+        padding: 1.0121457489878542510121457489879%;
+    }
+
+    .gridright {
+        width: 100%;
+    }
+
+    .right {
+        padding: 1.0121457489878542510121457489879%;
+    }
+
+    .gridbox {
+        margin-right: 0;
+        float: left;
+    }
+}
