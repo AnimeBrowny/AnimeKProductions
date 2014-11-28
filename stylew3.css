@@ -62,7 +62,7 @@ footer{
 }
 
 .gridmenu {
-    width: 35%;
+    width: 200px;
 }
 .gridmain {
     width: 41%;
@@ -74,6 +74,64 @@ footer{
 .gridfooter {
     width: 100%;
     margin-bottom: 0;
+}
+nav {
+    width: 210px;
+    height: 360px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+#navbar li {
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
+    background: #c2c2c2;
+}
+
+#navbar ul li a{
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    display: block;
+    color: white;
+}
+
+#navbar ul ul {
+    position: absolute;
+    visibility: hidden;
+    top: 242px;
+    left: 8px;
+}
+
+#navbar ul li:hover ul {
+    visibility: visible;
+    color: #fff4ff;
+
+}
+#navbar li:hover{
+    background: #8D7BF1;
+    transition-delay: 0.25s;
+}
+
+#navbar ul li:hover ul li a:hover{
+    background: #ccc;
+    color: #000;
+}
+
+#navbar a:hover{
+    color: #000;
 }
 @media only screen and (max-width: 500px) {
     .gridmenu {
